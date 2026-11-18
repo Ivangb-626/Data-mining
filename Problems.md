@@ -7,7 +7,9 @@ Professor's feedback:
 First, please clarify how exactly you intend to incorporate weather information. Are you considering weather forecasts at the departure airport, arrival airport, or both? Also, please verify that historical forecasts issued before your prediction cutoff are actually available. Keep in mind that multiple flights departing from the same airport around the same time will share very similar weather conditions, so there may be considerable redundancy across observations.
 
 #### Proposed solution
-**TODO**
+**TODO**: Search for a way of retriving forecasts
+
+I suggest to take into account the weather at both the departure and arrivar airports, taking them from an outside source and then implementing them as collumns in the data frame, right now the weather retrieval is not implemented but code for adding it into the feature normalization is already commented.
 
 ## Problem 2: Temporal features
 Professor's feedback:
